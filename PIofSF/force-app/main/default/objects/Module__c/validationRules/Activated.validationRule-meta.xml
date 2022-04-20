@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activated</fullName>
+    <active>true</active>
+    <description>validation of check activated</description>
+    <errorConditionFormula>IF( AND( Activated__c, OR( ISPICKVAL( Skill__c ,&quot;&quot;), ISBLANk( Roles__c ))),true,false)</errorConditionFormula>
+    <errorMessage>error, missing fields (SKILL and ROLES)</errorMessage>
+</ValidationRule>
