@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Unit__c</fullName>
+    <fullName>Unit_Lookup__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <externalId>false</externalId>
-    <label>Unit</label>
+    <label>Unit_Lookup</label>
     <referenceTo>Unit__c</referenceTo>
     <relationshipLabel>Unit Responses</relationshipLabel>
     <relationshipName>Unit_Responses</relationshipName>
